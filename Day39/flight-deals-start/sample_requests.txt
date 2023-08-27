@@ -1,0 +1,11 @@
+curl -X 'GET' \
+  'https://api.tequila.kiwi.com/locations/query?term=Paris&locale=en-US&location_types=city&limit=10&active_only=true' \
+  -H 'accept: application/json' \
+  -H 'apikey: 3jEmEP_xXf9WjL6jTghlcrWRLTEfS6GH'
+
+curl -X 'GET' \
+  'https://api.tequila.kiwi.com/v2/search?fly_from=city%3ALON&fly_to=city%3APAR&date_from=01%2F10%2F2023&date_to=02%2F10%2F2023&return_from=05%2F10%2F2023&return_to=05%2F10%2F2023&nights_in_dst_from=1&nights_in_dst_to=5&curr=GBP&vehicle_type=aircraft&limit=2' \
+  -H 'accept: application/json' \
+  -H 'apikey: 3jEmEP_xXf9WjL6jTghlcrWRLTEfS6GH'
+
+  AMSbobjbi!1

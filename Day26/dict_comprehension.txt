@@ -1,0 +1,12 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> names = [ 'Alex', 'Beth', 'Caroline', 'Dave', 'Eleanor', 'Freddie']
+>>> import random
+>>> { name: random.randint(50,100)  for name in names } 
+{'Alex': 88, 'Beth': 76, 'Caroline': 87, 'Dave': 79, 'Eleanor': 60, 'Freddie': 71}
+>>> student_grades = { name: random.randint(50,100)  for name in names }  
+
+>>> passed_students = { name: grade for (name,grade) in student_grades.items() if grade > 80 } 
+>>> passed_students
+{'Caroline': 91, 'Eleanor': 93, 'Freddie': 91}
+>>>
